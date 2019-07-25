@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/abhchauh0/Documents/GitHub/jenkins-with-selenium/src/test/java">
         <classes>
-            <class name="testng.NewTest"/>
+            <class name="testng.SeleniumTest"/>
         </classes>
     </test>
 </suite>

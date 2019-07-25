@@ -1,3 +1,5 @@
+package testng;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.NotFoundException;
@@ -5,9 +7,11 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class SeleniumAssignment2 {
+public class SeleniumTest {
 	public static WebDriver d=null;
-	public static void main(String[] args) {
+	
+	
+	public  void mainTest(String[] args) {
 			
 		try {
 			System.setProperty("webdriver.chrome.driver","C:\\JavaLearning\\SeleniumAssignment\\chromedriver.exe");
